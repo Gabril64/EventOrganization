@@ -80,7 +80,10 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist - Removido porque precisamos dele para deploy no Render
+
+# Frontend build (apenas o frontend tem dist no gitignore)
+frontend-eventos/dist
 
 # Gatsby files
 .cache/
@@ -93,7 +96,6 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
 
 # Sveltekit cache directory
 .svelte-kit/
